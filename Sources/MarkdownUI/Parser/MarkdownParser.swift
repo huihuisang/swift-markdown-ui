@@ -1,5 +1,5 @@
 import Foundation
-@_implementationOnly import cmark_gfm
+@_implementationOnly import ccmark_gfm
 
 extension Array where Element == BlockNode {
   init(markdown: String) {
